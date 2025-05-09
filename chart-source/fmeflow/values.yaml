@@ -189,6 +189,7 @@ resources:
       cpu: 100m
 
 storage:
+  create: true
   useHostDir: false
   reclaimPolicy: Delete
   postgresql:
